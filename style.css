@@ -6,7 +6,25 @@
   
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 15%;
+    padding-top: 70px;
+    background: white
+  
+  }
+    
+  .news {
+    width: 160px;
+    background-color: rgb(222, 64, 149);
+  }
+
+  .dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    background-color: rgb(222, 64, 149);
+    border-radius: 50%;
+    display: inline-block
   }
   
   .container {
@@ -30,6 +48,7 @@
   /* Responsive gallery rules*/
   
   .image-gallery {
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
