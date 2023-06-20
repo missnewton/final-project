@@ -96,3 +96,17 @@
     transform: scale(1);
   }
   
+  .team-gallery {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2%;
+  }
