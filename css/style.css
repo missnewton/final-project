@@ -44,6 +44,15 @@
   ul {
     list-style: none;
   }
+
+  .button  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   /* Responsive gallery rules*/
   
@@ -95,18 +104,40 @@
   .image-gallery li:hover .overlay {
     transform: scale(1);
   }
-  
-  .team-gallery {
-    padding-top: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
 
-  .person {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:2%;
-  }
+    /* Responsive store rules*/
+  
+    .image-store {
+      padding-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    .image-store > li {
+      flex-basis: 350px;
+      position: relative;
+      cursor: pointer;
+    }
+    
+    .image-store::after {
+      content: "";
+      flex-basis: 350px;
+    }
+    
+    .image-store li img {
+      object-fit: cover;
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      border-radius: 50px;
+    }
+
+    /* overlay rules for store are in gallery rules*/
+    
+    /* hover */
+    .image-store li:hover .overlay {
+      transform: scale(1);
+    }
+    
