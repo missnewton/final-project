@@ -112,7 +112,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 10px;
+      gap: 70px;
     }
     
     .image-store > li {
@@ -133,8 +133,6 @@
       vertical-align: middle;
       border-radius: 50px;
     }
-
-    /* overlay rules for store are in gallery rules*/
     
     /* hover */
     .image-store li:hover .overlay {
