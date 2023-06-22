@@ -138,4 +138,39 @@
     .image-store li:hover .overlay {
       transform: scale(1);
     }
-    
+    /* styling for the design team pages*/
+
+    .person-tab {
+      display:flex;
+      padding:10%;
+
+    }
+    .person {
+      margin: 0;
+      position: absolute;
+      /* top: 50%; */
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      text-align:center
+
+    }
+
+    .team-gallery {
+      padding-top:10%;
+      padding-bottom: 10%;
+
+    }
+
+    .person-button {
+      margin-left:auto;
+      margin-right:auto;
+      display:block;
+
+    }
+
+    /* footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+    } */
