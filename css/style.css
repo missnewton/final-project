@@ -62,12 +62,16 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    /* make centred */
+    padding-left:1rem;
+    padding-right:1rem;
   }
   
   .image-gallery > li {
     flex-basis: 350px;
     position: relative;
     cursor: pointer;
+
   }
   
   .image-gallery::after {
