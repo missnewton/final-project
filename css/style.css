@@ -215,9 +215,9 @@ article.team-member>div>div>img {
   text-align: center;
 }
 
-/* .bio {
+.bio {
   display:none;
-} */
+}
 button.person {
   margin: 1rem;
 }
