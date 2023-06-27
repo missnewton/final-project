@@ -146,7 +146,7 @@
 
     /* styling for the design team pages*/
 
-    .person-tab {
+    /* .person-tab {
       display:flex;
       padding:10%;
     }
@@ -154,7 +154,6 @@
     .person {
       margin: 0;
       position: absolute;
-      /* top: 50%; */
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       text-align:center
@@ -169,7 +168,45 @@
       margin-left:auto;
       margin-right:auto;
       display:block;
-    }
+    } */
+.team-gallery {
+  padding-top:10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+
+}
+
+.team-member {
+  flex-basis: 350px;
+  position:relative;
+  cursor:pointer;
+  box-sizing: border-box;
+  text-align: -webkit-match-parent;
+  justify-content: center;
+}
+
+article.team-member>div>img {
+  object-fit: cover;
+  max-width:100%;
+  height:auto;
+  vertical-align: auto;
+  border-radius: 50px;
+  cursor:pointer;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+
+}
+
+button.person {
+  margin: 1rem;
+}
 
 /* Form styling */
 input:focus:invalid {
