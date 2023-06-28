@@ -2,7 +2,7 @@
 # CFG Intro to Web Dev
 
 ## Description
-Welcome to our project! This is our website for new up and coming band, The Night Garden! We"ve designed a bold yet simple framework using HTML, Bootstrap, Javascript and CSS. Users should be able to check out our store and tour pages for our album and tour tickets (only while stocks last ;)) as well as follow links to external streaming providers to search for our music. We have a short introduction to our band members aka our design team so you can get to know us a little better. We hope you enjoy our site and we look forward to your contributions!
+Welcome to our project! This is our [website for new up and coming band, The Night Garden](https://missnewton.github.io/final-project/)! We"ve designed a bold yet simple framework using HTML, Bootstrap, Javascript and CSS. Users should be able to check out our store and tour pages for our album and tour tickets (only while stocks last ;)) as well as follow links to external streaming providers to search for our music. We have a short introduction to our band members aka our design team so you can get to know us a little better. We hope you enjoy our site and we look forward to your contributions!
 
 ## Contributing
 We welcome any and all contributions! Here are some ways you can get started:
