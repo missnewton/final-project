@@ -56,11 +56,11 @@ ul {
 /* Responsive gallery rules*/
 
 .image-gallery {
-  padding-top: 10px;
+  padding-top: 2.5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 2.5em;
   /* make centred */
   padding-left: 1rem;
   padding-right: 1rem;
@@ -85,6 +85,10 @@ ul {
   vertical-align: middle;
   border-radius: 50px;
 }
+
+/* #img1 {
+  border: 1px solid grey;
+} */
 
 .overlay {
   position: absolute;
@@ -111,17 +115,18 @@ ul {
 /* Responsive store rules*/
 
 .image-store {
-  padding-top: 10px;
+  padding: 2.5em 1em 0em 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 70px;
+  gap: 2em;
 }
 
 .image-store>li {
   flex-basis: 350px;
   position: relative;
   cursor: pointer;
+  margin:1em;
 }
 
 .image-store::after {
@@ -146,11 +151,11 @@ ul {
 /* styling for the design team pages*/
 
 .team-gallery {
-  padding-top: 10vh;
+  padding-top: 2.5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 1.2em;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 0;
